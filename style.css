@@ -1,0 +1,39 @@
+hi {
+  heigth:1000px;
+  background-color: #797277;
+}
+
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+}
+body {background-color: white;}
+
+
+div.a {
+  text-align: right;
+}
+
+div.b {
+  text-align: left;
+}
